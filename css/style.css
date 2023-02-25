@@ -1,0 +1,86 @@
+body {
+    background-color: #fff;
+    font-family: 'Oswald', sans-serif;
+    /* font-size: 15px; */
+    /* text-align: center; */
+}
+.titulo_1 {
+    font-family: 'Oswald', sans-serif;
+    color: lightgray;
+    text-align: center;
+    font-weight: 200;
+    margin: 0;
+}
+
+.titulo_2 {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitulo {
+    font-size: small;
+    text-align: center;
+    color: lightgray;
+    padding-bottom: 70px;
+}
+
+.contenedor {
+    position: relative;
+    background-color: blueviolet;
+
+}
+
+.tarjeta {
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 220px;
+    border-radius: 20px;
+    /* border-top: 4px solid hsl(0, 78%, 62%); */
+    box-shadow: 0px 5px 5px rgba(148, 148, 148, 0.281);
+    margin-bottom: 40px;
+}
+
+.team__builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    left: calc(50vw - 200px);
+    
+}
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    top: calc(260px - 110px);
+}
+
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    left: calc(50vw - 200px);
+    top: 260px;
+}
+
+.calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    left: calc(50vw + 240px);
+    top: calc(260px - 110px);
+}
+.titulo__tarjeta {
+    margin-left: 40px;
+}
+
+.img__icono {
+    /* position: relative; */
+    position: absolute;
+    /* display: block; */
+    left: 75%;
+    /* margin-bottom: 20px; */
+    background-color: black;
+    
+    
+}
+
+.parrafo {
+    margin-left: 40px;
+    margin-right: 60px;
+    color: lightgray;
+    font-weight: 200;
+}
